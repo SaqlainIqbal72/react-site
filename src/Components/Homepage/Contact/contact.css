@@ -1,0 +1,108 @@
+.contact {
+  padding-left: 162px;
+  display: flex;
+  align-items: center;
+  gap: 100px;
+  overflow: hidden;
+}
+.contact-left {
+  padding: 40px;
+  border-radius: 16px;
+}
+.contact-left h1 {
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 56px;
+  letter-spacing: -0.04em;
+  margin-bottom: 16px;
+}
+.contact-left > p {
+  padding-right: 162px;
+
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: -0.02em;
+  color: #666666;
+  margin-bottom: 40px;
+}
+.contact-left label {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.02em;
+  color: #000000;
+  display: block;
+}
+.contact-left input {
+  width: 620px;
+  height: 56px;
+
+  margin-top: 8px;
+  border-radius: 8px;
+  border: 1px solid #c4cee8;
+}
+.contact-left textarea {
+  display: block;
+}
+.contact-right {
+  background: linear-gradient(315deg, #00c2ff 0%, #025afa 100%);
+  padding-top: 45px;
+  padding-bottom: 83px;
+  padding-left: 67px;
+}
+.contact-right .flex {
+  display: flex;
+  align-items: center;
+  padding-right: 161px;
+
+  gap: 10px;
+}
+.contact-right .flex p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #ffffff;
+}
+.contact-right .flex1 :nth-child(2) {
+  margin: 40px 0px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  gap: 24px;
+}
+.contact-left textarea {
+  width: 620px;
+  height: 112px;
+  border-radius: 8px;
+  border: 1px solid #c4cee8;
+  padding: 10px;
+  margin-top: 8px;
+  margin-bottom: 40px;
+}
+.contact-right h3 {
+  font-family: Poppins;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 60px;
+  color: #ffffff;
+  margin-bottom: 29px;
+}
+.contact-left button {
+  padding: 20px 48px;
+  background: linear-gradient(180deg, #00c2ff 0%, #025afa 100%);
+  border: none;
+}
+.contact-left button a {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #ffffff;
+}

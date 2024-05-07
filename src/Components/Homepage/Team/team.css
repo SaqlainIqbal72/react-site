@@ -1,0 +1,64 @@
+.team {
+  padding: 0px 157px;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 80px;
+}
+.team h1 {
+  font-family: Poppins;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 60px;
+  color: #000000;
+  margin-bottom: 38px;
+  align-self: flex-end;
+}
+.team-flex {
+  background: linear-gradient(98.93deg, #00c2ff 0%, #025afa 100%);
+  display: flex;
+  padding-left: 20px;
+  padding-bottom: 16px;
+  padding-top: 20px;
+  flex-direction: column;
+  gap: 29px;
+  align-items: baseline;
+  padding-right: 259px;
+}
+.team-flex-1 {
+  display: flex;
+  align-items: center;
+  gap: 31px;
+}
+.team-flex-1 h3 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  color: #ffffff;
+  margin-bottom: 2px;
+}
+.team-flex-1 p {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 21px;
+}
+.team-flex-2 p {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #ffffff;
+  margin-bottom: 37px;
+}
+.team-flex-2 button {
+  padding: 14px 36px;
+  background-color: #ffffff1a;
+  border: none;
+}
+.team-flex-2 button a {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  color: #ffffff;
+}

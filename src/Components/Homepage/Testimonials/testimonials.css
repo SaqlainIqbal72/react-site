@@ -1,0 +1,78 @@
+.testimonials {
+  display: flex;
+  align-items: baseline;
+  flex-direction: column;
+  padding: 0px 162px;
+  gap: 96px;
+  margin-bottom: 181px;
+}
+.testimonials h1 {
+  font-family: Poppins;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 60px;
+  margin-bottom: 15px;
+}
+.testimonials-top > p {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+  color: #666666;
+  padding-right: 671px;
+    
+    
+}
+.testimonials-bottom {
+  display: flex;
+  gap: 30px;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+}
+.testimonial-card {
+  padding: 32px 32px;
+  border-top: 4px solid #000;
+  background-color: #f8f8f8;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: center;
+}
+.testimonial-card span {
+  display: block;
+}
+.testimonial-card p {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: -0.18000000715255737px;
+  text-align: center;
+}
+.testimonial-card div :nth-child(1) {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.03em;
+}
+.testimonial-card div :nth-child(2) {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.01em;
+  text-align: center;
+  color: #666666;
+}
+.testimonial-card:hover {
+  background: linear-gradient(315deg, #00c2ff 0%, #025afa 100%);
+  color: #ffffff;
+  /* border-top: none; */
+}
+.testimonial-card:hover :nth-child(2) {
+  color: #ffffff;
+}
+.testimonial-card:hover img{
+    border-radius: 50%;
+}
